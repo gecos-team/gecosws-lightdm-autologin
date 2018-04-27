@@ -1,0 +1,29 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: gecosws-lightdm-autologin
+
+# Autor 
+author: Jose Manuel Rodriguez Caro <jmrodriguez@gruposolutia.com>
+
+#Priority
+priority: optional
+
+# Section
+section: metapackages
+
+# Descripción corta
+shortdesc: "Autologin greeter for lightdm."
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "Autologin greeter for lightdm with 0-seconds autologin delay. Ideal for kiosk-like setup."
+
+
+# Versión del paquete
+version: 1.0
+
+# Cambios en esta versión
+changes:
+    - Initial release.
